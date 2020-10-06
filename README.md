@@ -1,0 +1,1 @@
+# shirokovavy.github.io
