@@ -13,7 +13,8 @@
 }
 
 .video{
-    background-color: blue;
+    background-position: center;
+    size: 100%;
 }
 .row{
     align-self: center;
