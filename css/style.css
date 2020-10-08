@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1{
+    height: 792px;
+    background-color: rgb(157,215,106);
+    background-image: url(../img/photo1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    }
+
+.text{
+    color: #282828;
+    font-family: "Exo - Thin";
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 73.02px;
+    letter-spacing: 2.4px;
+    text-align: center;
+    }
+
+.section2{
+        
+    }
+    
