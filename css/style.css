@@ -12,10 +12,14 @@
     background-repeat: no-repeat;
 }
 
+.video{
+    background-color: blue;
+}
+.row{
+    align-self: center;
+}
 .col-8 text{
     height: 10em;
-    /* position: relative  */
-    
 }
 
 .text{
@@ -26,3 +30,4 @@
     margin-right: -50%;
     transform: translate(-50%, -50%) 
 }
+
