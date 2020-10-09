@@ -1,5 +1,10 @@
-@import "../fonts/Exo/Exo-Thin.ttf"
+@import "../fonts/Exo/Exo-Thin.ttf";
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .header{
 background-size: cover;
@@ -7,6 +12,7 @@ background-position: center;
 background-color: rgb(157,215,106);
 background-image: url(../img/photo1.jpg);
 height: 100vh;
+background-repeat: no-repeat;
 }
 
 .row{
