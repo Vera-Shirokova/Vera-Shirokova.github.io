@@ -1,4 +1,4 @@
-@import "../fonts/Exo/Exo-Thin.ttf";
+@import "../fonts/Exo/stylesheet.css"screen;
 
 *{
     margin: 0;
@@ -6,29 +6,93 @@
     box-sizing: border-box;
 }
 
-.header{
-    background-size: cover;
-    background-position: center;
+.mountain{
     background-color: rgb(157,215,106);
-    background-image: url(../img/photo1.jpg);
-    height: 100vh;
-    background-repeat: no-repeat;
     z-index: 1;
+    padding: 0;
+    /* background-image: url(../img/photo1.jpg);
+    height: 792px;
+    background-repeat: no-repeat;
+        background-size: cover;
+    background-position: center; */
 }
 
-.video{
-    height: 100%;
-    width: auto;
-    z-index: 2;
+.row{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .text{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%); 
+    width: 690px;
+    height: 137px;
+    color: #282828;
+    font-family: 'Exo-Thin';
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 73.02px;
+    letter-spacing: 2.4px;
     z-index: 3;
 }
 
+
+.video{
+    position: relative;
+    z-index: 2;
+    display: block;
+}
+
+.text_design{
+    width: 118px;
+    height: 15px;
+    color: #ff6d6d;
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 48.68px;
+    text-transform: uppercase;
+    letter-spacing: 3.2px;}
+
+.text-main{
+    width: 520px;
+    height: 92px;
+    color: #282828;
+    font-family: Exo;
+    font-size: 39px;
+    font-weight: 500;
+    line-height: 48.68px;
+    letter-spacing: 1.6px;
+    color: #ff6d6d;
+    letter-spacing: 1.6px;
+}
+
+.text{
+    width: 558px;
+    height: 196px;
+    opacity: 0.66;
+    color: #282828;
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.31px;
+    letter-spacing: 0.64px;
+}
+
+.right{
+    position: relative;
+}
+
+.photo{
+    width: 537px;
+    height: 688px;
+    z-index: 1;
+    background-image: url(../img/man.jpg);
+    background-repeat: no-repeat;
+}
+
+.tr-field {
+    width: 551px;
+    height: 706px;
+    background-color: #ff6d6d;
+    opacity: 0.8;
+    z-index: 2;
+  }

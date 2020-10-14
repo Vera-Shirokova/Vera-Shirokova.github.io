@@ -1,0 +1,31 @@
+@font-face{
+    font-family: 'Exo-Italic';
+    src: url("Exo2.0-Italic.woff2"),
+    url("Exo2.0-Italic.woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Exo-Medium';
+    src: url("Exo2.0-Medium.woff2")
+    url("Exo2.0-Medium.woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Exo-Regular';
+    src: url("Exo2.0-Regular.woff2"),
+    url("Exo2.0-Regular.woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Exo-Thin';
+    src: url("Exo2.0-Thin.woff2"),
+    url("Exo2.0-Thin.woff");
+    font-weight: normal;
+    font-style: normal;
+}
