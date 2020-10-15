@@ -8,18 +8,16 @@
 
 .mountain{
     background-color: rgb(157,215,106);
-    z-index: 1;
+    /* position: absolute; */
     padding: 0;
-    /* background-image: url(../img/photo1.jpg);
-    height: 792px;
-    background-repeat: no-repeat;
-        background-size: cover;
-    background-position: center; */
-}
-
-.row{
     display: flex;
     flex-wrap: wrap;
+}
+
+.video{
+    position: relative;
+    z-index: 1;
+    display: block;
 }
 
 .text{
@@ -31,15 +29,9 @@
     font-weight: 400;
     line-height: 73.02px;
     letter-spacing: 2.4px;
-    z-index: 3;
-}
-
-
-.video{
-    position: relative;
     z-index: 2;
-    display: block;
 }
+
 
 .text_design{
     width: 118px;
@@ -61,7 +53,7 @@
     font-weight: 500;
     line-height: 48.68px;
     letter-spacing: 1.6px;
-    color: #ff6d6d;
+    color: #282828;
     letter-spacing: 1.6px;
 }
 
@@ -75,6 +67,10 @@
     font-weight: 500;
     line-height: 25.31px;
     letter-spacing: 0.64px;
+}
+
+span{
+    color: #ff6d6d;
 }
 
 .right{
@@ -96,3 +92,26 @@
     opacity: 0.8;
     z-index: 2;
   }
+
+.section3{
+    background-color: #f6f5f3;
+}
+
+.section5{
+    background-image: url(../img/Group_4.png);
+}
+
+.section6{
+    background-color: #f6f5f3;
+}
+
+.section7{
+    background-color: #323969;
+}
+
+.span2{
+    color:white;
+    width: 42px;
+    height: 46px;
+    background-image: url(../img/Polygon_1.svg);
+}
