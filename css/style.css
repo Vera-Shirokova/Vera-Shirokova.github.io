@@ -8,94 +8,80 @@
 
 .mountain{
     background-color: rgb(157,215,106);
-    /* position: absolute; */
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center;
+    height: 792px;
 }
 
-.video{
+.section1{
+    padding-left: 0px;
+    padding-right: 0px;
     position: relative;
-    z-index: 1;
-    display: block;
 }
 
-.text{
-    width: 690px;
-    height: 137px;
-    color: #282828;
-    font-family: 'Exo-Thin';
-    font-size: 58px;
-    font-weight: 400;
-    line-height: 73.02px;
-    letter-spacing: 2.4px;
+.back_video{
+    width: 100%;
+    /* position: absolute;
+    z-index: 2; */
+}
+
+.header_button{
+    width: 186px;
+    height: 50px;
+    position: absolute;
+    bottom: 252px;
     z-index: 2;
+    margin-left: 235px;
+    margin-right: 387px;
 }
-
 
 .text_design{
-    width: 118px;
-    height: 15px;
     color: #ff6d6d;
-    font-family: Exo;
+    font-family: Exo-Regular;
     font-size: 16px;
     font-weight: 500;
-    line-height: 48.68px;
-    text-transform: uppercase;
-    letter-spacing: 3.2px;}
-
-.text-main{
-    width: 520px;
-    height: 92px;
-    color: #282828;
-    font-family: Exo;
-    font-size: 39px;
-    font-weight: 500;
-    line-height: 48.68px;
-    letter-spacing: 1.6px;
-    color: #282828;
-    letter-spacing: 1.6px;
 }
 
-.text{
-    width: 558px;
-    height: 196px;
-    opacity: 0.66;
+.text_main{
     color: #282828;
-    font-family: Exo;
-    font-size: 16px;
+    font-family: Exo-Regular;
+    font-size: 39px;
     font-weight: 500;
-    line-height: 25.31px;
-    letter-spacing: 0.64px;
+}
+
+.text_content{
+    color: #282828;
+    opacity: 0.66;
+    font-family: Exo-Regular;
+    font-size: 16px;
+    font-weight: 500
 }
 
 span{
     color: #ff6d6d;
-}
+} 
 
-.right{
+.image{
     position: relative;
-}
-
-.photo{
-    width: 537px;
-    height: 688px;
-    z-index: 1;
-    background-image: url(../img/man.jpg);
-    background-repeat: no-repeat;
-}
-
-.tr-field {
-    width: 551px;
-    height: 706px;
-    background-color: #ff6d6d;
-    opacity: 0.8;
     z-index: 2;
-  }
+    display: block;
+}
+
+.tr-field{
+    position: absolute;
+    z-index: 2;
+    opacity: 0.8;
+    top: 220px
+}
 
 .section3{
     background-color: #f6f5f3;
 }
+
+.text-center{
+    padding-top: 134px;
+}
+
 
 .section5{
     background-image: url(../img/Group_4.png);
@@ -114,4 +100,4 @@ span{
     width: 42px;
     height: 46px;
     background-image: url(../img/Polygon_1.svg);
-}
+} 
