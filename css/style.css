@@ -35,6 +35,12 @@
     margin-right: 387px;
 }
 
+.man1{
+    padding-left: 144px;
+    padding-right: 147px;
+    
+}
+
 .text_design{
     color: #ff6d6d;
     font-family: Exo-Regular;
@@ -54,12 +60,17 @@
     opacity: 0.66;
     font-family: Exo-Regular;
     font-size: 16px;
-    font-weight: 500
+    font-weight: 500;
 }
+
 
 span{
     color: #ff6d6d;
 } 
+
+.man2{
+    padding-right: 0px;
+}
 
 .image{
     position: relative;
@@ -67,18 +78,27 @@ span{
     display: block;
 }
 
-.tr-field{
+.triangle{
     position: absolute;
     z-index: 2;
     opacity: 0.8;
-    top: 220px
+    top: 220px;
 }
 
 .section3{
     background-color: #f6f5f3;
 }
 
-.text-center{
+.pen{
+    padding-right: 114px;
+    padding-left: 95px;
+}
+
+.ears{
+    padding-left: 157px;
+}
+
+.text3{
     padding-top: 134px;
 }
 
