@@ -63,7 +63,6 @@
     font-weight: 500;
 }
 
-
 span{
     color: #ff6d6d;
 } 
@@ -102,7 +101,15 @@ span{
     padding-top: 134px;
 }
 
+.pins{
+    padding-bottom: 29px;
+}
 
+.cup{
+    width: 229px;
+    height: 112px;
+}
+.
 .section5{
     background-image: url(../img/Group_4.png);
 }
