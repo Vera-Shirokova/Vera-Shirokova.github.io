@@ -7,22 +7,22 @@
 }
 
 .mountain{
-    background-color: rgb(157,215,106);
     background-size: cover;
     background-position: center;
-    height: 792px;
+    padding: 0;
+    margin: 0;
 }
 
 .section1{
-    padding-left: 0px;
-    padding-right: 0px;
     position: relative;
+    margin: 0;
+    padding: 0;
 }
 
 .back_video{
     width: 100%;
-    /* position: absolute;
-    z-index: 2; */
+    margin-top: -15px;
+    margin-bottom: -6px;
 }
 
 .header_button{
@@ -45,7 +45,7 @@
     color: #ff6d6d;
     font-family: Exo-Regular;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .text_main{
@@ -77,7 +77,7 @@ span{
     display: block;
 }
 
-.triangle{
+.rectangle{
     position: absolute;
     z-index: 2;
     opacity: 0.8;
@@ -105,21 +105,119 @@ span{
     padding-bottom: 29px;
 }
 
-.cup{
-    width: 229px;
-    height: 112px;
+.image-cup{
+    margin-top: 66px;
 }
-.
+
+.cup{
+    width: 229px;    
+}
+
+.mac{
+    background-image: url(../img/rectangle5.jpg);
+    background-repeat: no-repeat;
+    height: 534px;
+}
+
+.section4{
+    padding-top: 90px;
+    padding-bottom: 97px;
+    padding-left: 70px;
+}
+
+.t3{
+    padding-top: 33px;
+    width: 480px;
+    height: 96px;
+    opacity: 0.66;
+    color: #282828;
+}
+
 .section5{
     background-image: url(../img/Group_4.png);
+    background-repeat:no-repeat;    
+    background-position:center;
+    background-size: cover;
+    background-color: black;
+    /* opacity: 0.8; */
+}
+
+.men1{
+    padding-top: 108px;
+}
+
+.nikname{
+    padding-top: 23px;
+}
+
+.name{
+    color: #ffffff;
+    font-family: Exo-Regular;
+    font-size: 21px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.job{
+    height: 15px;
+    color: #ff6d6d;
+    font-family: Exo-Regular;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.text_grey{
+    opacity: 0.66;
+    color: #ffffff;
+    font-family: "Exo - Italic";
+    font-size: 16px;
+    font-weight: 400;   
+    text-align: center;
+    padding-top: 34px;
+}
+
+.five{
+    padding-top: 92px;
+    padding-bottom: 79px;
 }
 
 .section6{
     background-color: #f6f5f3;
 }
 
+.view{
+    padding-top: 105px;
+}
+
+.sec6{
+    padding-top: 45px;
+    padding-right: 85px;
+    padding-left: 88px;
+}
+
+.browser{
+    padding-top: 88px;
+}
+
 .section7{
     background-color: #323969;
+}
+
+.words{
+    padding-top: 94px;
+}
+
+.color_word{
+    color: #ffffff;
+    font-family: Exo-Regular;
+    font-size: 39px;
+    font-weight: 500;
+}
+
+.forms{
+    padding-top: 92px;
+    
 }
 
 .span2{
