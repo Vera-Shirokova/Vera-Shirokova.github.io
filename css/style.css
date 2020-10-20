@@ -29,10 +29,9 @@
     width: 186px;
     height: 50px;
     position: absolute;
-    bottom: 252px;
+    bottom: 230px;
     z-index: 2;
-    margin-left: 235px;
-    margin-right: 387px;
+    margin-left: -100px;
 }
 
 .man1{
@@ -196,10 +195,6 @@ span{
     padding-left: 88px;
 }
 
-.browser{
-    padding-top: 88px;
-}
-
 .section7{
     background-color: #323969;
 }
@@ -215,14 +210,96 @@ span{
     font-weight: 500;
 }
 
-.forms{
-    padding-top: 92px;
-    
+.stock{
+    padding-top: 34px;
+    padding-right: 174px;
+    padding-left: 70px;
 }
 
-.span2{
-    color:white;
-    width: 42px;
-    height: 46px;
-    background-image: url(../img/Polygon_1.svg);
+.forms{
+    padding-top: 16px;
+    padding-bottom: 49px;
+}
+
+.form1{
+    width: 257px;
+    height: 48px;
+    border-radius: 3px;
+    border: 1px solid #ffffff;
+    background-color: #f6f5f3;
+    opacity: 0.5;
+    color: #f6f5f3;
+    font-family: Exo-Regular;
+    padding-left: 20px;
+}
+
+.form2{
+    width: 257px;   
+    height: 49px;
+    box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
+    border-radius: 3px;
 } 
+
+.end{
+    opacity: 0.6;
+    color: #f6f5f3;
+    font-family: Exo-Thin   ;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 82px;
+}
+
+.span3{
+    opacity: 0.6;
+    color: #f6f5f3;
+    font-family: Exo-Thin   ;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.info{
+    background-image: url(../img/rectangle2.png);
+    background-repeat: no-repeat;
+    height: 325px;
+    background-position: right;
+}
+
+.section8{
+    padding-top: 92px;  
+}
+
+.h1{
+    color: #2c2f49;
+    font-family: Exo-Regular;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.ex{
+    padding-left: 5px;
+}
+
+.lastrow{
+    padding-top: 21px;
+}
+
+.lastrow2{
+    padding-top: 29px;
+}
+
+.f_icon{
+    letter-spacing: 25px;;
+}
+
+
+/* #footer{
+    height: 45px;
+}
+
+#footer p{
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 10px;
+} */

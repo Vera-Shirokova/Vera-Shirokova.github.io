@@ -11,16 +11,13 @@
 
 <div class="mountain">    
     <div class="container-fluid section1">
-        <video class="back_video" src="video/mountain.mp4" controls muted poster="img/photo2.jpg" preload="metadata"></video>    
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <button type="button" class="btn btn-danger header_button">TRY NOW</button>
-            </div>
-        </div>
+        <video class="back_video" src="video/mountain.mp4" controls muted poster="img/photo2.jpg"
+            preload="metadata" id="test"></video>
+    <div class="container text-center">
+        <button type="button" class="btn btn-danger header_button" id="button">TRY NOW</button>
     </div>
     </div>    
-</div>
+</div>  
 <section class="man"> 
 <div class="container-fluid p-0">
     <div class="row m-0">   
@@ -130,7 +127,7 @@
         </div>
         <div class="row five text-center">
             <div class="col-3">
-                <img src="img/logo-1.svg" color="white"></div>
+                <img src="img/logo-1.svg"></div>
             <div class="col-2">
                 <img src="img/partner-logo-4.png"></div>
             <div class="col-2">
@@ -166,63 +163,97 @@
                 <div class="col-2"></div>
         </div>
         <div class="row">
-            <div class="col-9"></div>
-            <div class="col-3">
+            <div class="col-8"></div>
+            <div class="col-4 stock">
                 <img src="img/2-layers.png"></div>
         </div>
-        <form>
-            <div class="row forms text-center">
+        <div class="row forms justify-content-center">
+            <form class="form-check-inline ">
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="FULL NAME"></div>
+                    <label for="inputName1" class="sr-only">FULL NAME</label>
+                    <input type="text" name="name" class="form1" id="inputName1" placeholder="FULL NAME">
+                </div>
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="YOUR EMAIL"></div>
+                    <label for="inputMail2" class="sr-only">YOUR EMAIL</label>
+                    <input type="text" name="email" class="form1" id="inputMail2" placeholder="YOUR EMAIL">
+                </div>
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="PASSWORD"></div>
-                <div class="col">    
-                    <button type="button" class="btn btn-danger">TRY NOW</button></div>
+                    <label for="inputPhone3" class="sr-only">PASSWORD</label>
+                    <input type="password" name="phone" class="form1" id="inputPassword3" placeholder="PASSWORD">
+                </div>
+                <div class="col">
+                    <button type="submit" class="btn btn-danger form2">TRY NOW</button>
+                </div>
+            </form>
+        </div>
+        <div class="row text-center">
+            <div class="col-12">
+                <h5 class="end">By Signing up you agree to our <span class="span3">terms & Services.</span></h5>
             </div>
-        </form>
+        </div>
     </div>
 </section>
-<footer>
-    <div class="container-fluid section8">
+<section class="info"> 
+    <div class="container section8 justify-content-center">
         <div class="row">
-            <div class="col-3">
-                <h5> Start <span class="span2">Ex</span></h5>
-                <p>Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. 
-                    USA &  CAN: 1-888-123-4567
-                    Address: 34 Brokel Rd. NY</p>
+            <div class="col-3 form-inline">
+                <h5 class="h1"> Start</h5>
+                <img src="img/ex.png" class="ex">
+                <p class="lastrow">Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam.
+                USA &  CAN: 1-888-123-4567
+                Address: 34 Brokel Rd. NY</p>
             </div>
             <div class="col-2">
-            <h5>Support</h5>
-            <p>Help Center
-                Get Started
-                Contact US</p>
+                <h5 class="h1">Support</h5>
+                <p class="lastrow">Help Center</p>
+                <p>Get Started</p>
+                <p>Contact US</p>
             </div>
             <div class="col-2">
-            <h5>About US</h5>
-            <p>About Us
-                Terms of Use
-                Privacy Policy</p>
+                <h5 class="h1">About US</h5>
+                <p class="lastrow">About Us</p>
+                <p>Terms of Use</p>
+                <p>Privacy Policy</p>
             </div>  
             <div class="col-3">
-                <h5>Get Newsletter</h5>
-                <div class="input-group float-right">
-                    <input type="text" class="form-control f_search" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                <h5 class="h1">Get Newsletter</h5>
+                <div class="input-group float-right lastrow2">
+                    <label for="inputMail2" class="sr-only">EMAIL</label>
+                    <input type="text" name="email" class="form-control f_search" id="inputMail2" placeholder="EMAIL">
                     <div class="input-group-append">
                         <button type="button" class="btn btn-danger"><img src="img/fly.svg" alt=""></button>
                     </div>
                 </div>
-                <div class="f_icon">
+                <div class="f_icon px-3 py-3 pb-md-4 mx-auto text-center">
                     <a href="#"><img src="img/set.svg" alt=""></a>
-                    <a href="#"><img src="img/facebook_S.svg" alt=""></a>
-                    <a href="#"><img src="img/googleplus_S.svg" alt=""></a>
-                    <a href="#"><img src="img/twitter_S.svg" alt=""></a>
+                    <a href="https://www.facebook.com/" target="blank"><img src="img/facebook_S.svg" alt=""></a>
+                    <a href="https://www.google.com/intl/ru/gmail/about/" target="blank"><img src="img/googleplus_S.svg" alt=""></a>
+                    <a href="https://twitter.com/?lang=ru" target="blank"><img src="img/twitter_S.svg" alt=""></a>
                 </div>
             </div>
             <div class="col-2"></div>
+    </div>  
+</section>   
+<!-- <div id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="offset-md-5 col-md-7">
+                <a href="https://github.com/Vera-Shirokova"><p>© Shirokova Vera 2020</p></a>
+            </div>
         </div>
-    </div>    
-</footer>    
+    </div>
+</div> -->
+
+<script>
+    const video = document.querySelector('#test');
+    const button = document.querySelector('#button');
+
+    video.addEventListener('playing', (event) => {
+        console.log('Video is no longer paused');
+        button.style.display = "none";
+    });
+</script>
+
+
 </body>
 </html>
