@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Путешествия в горы</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,9 +15,10 @@
         <video class="back_video" src="video/mountain.mp4" controls muted poster="img/photo2.jpg"
             preload="metadata" id="test"></video>
     <div class="container text-center">
-        <button type="button" class="btn btn-danger header_button" id="button">TRY NOW</button>
+        <a href="#order">
+        <button type="button" class="btn btn-danger header_button" id="button">TRY NOW</button></a>
     </div>
-    </div>    
+    </div>
 </div>  
 <section class="man"> 
 <div class="container-fluid p-0">
@@ -85,7 +87,7 @@
     <div class="container-fluid section4">
         <div class="row">
             <div class="col-6 text-center">
-                <img src="img/macbook.png">
+                <img src="img/macbook2.png">
             </div>
             <div class="col-6">
                 <div class="text_design ">NEW DESIGN</div>
@@ -135,7 +137,7 @@
             <div class="col-2">
                 <img src="img/partner-logo-7.png"></div>
             <div class="col-3">
-                <img src="img/partner-logo-8.png"></div>
+                <img src="img/partner-logo-8.png"></div> 
         </div>
     </div>
 </section>
@@ -147,13 +149,13 @@
                 <div class="text_design">NEW FEATURES</div>
                 <div class="text_main">Some awesome features</div>
                 <div class="text sec6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At quasi doloremque, delectus quo tempora nemo optio consequuntur eos unde et! Quibusdam molestiae cupiditate vel nesciunt hic tenetur perspiciatis possimus quae</div>
-                <img src="img/browser.jpg" class="browser">
+                <img src="img/browser.jpg" class="browser1">
             </div>
             <div class="col-2"></div>
         </div>
     </div>
 </section>
-<section class="order">
+<section class="order" id="order">
     <div class="container-fluid section7">
         <div class="row text-center">
             <div class="col-2"></div>
@@ -165,7 +167,8 @@
         <div class="row">
             <div class="col-8"></div>
             <div class="col-4 stock">
-                <img src="img/2-layers.png"></div>
+                <img src="img/2-layers.png">
+            </div>
         </div>
         <div class="row forms justify-content-center">
             <form class="form-check-inline ">
@@ -188,7 +191,28 @@
         </div>
         <div class="row text-center">
             <div class="col-12">
-                <h5 class="end">By Signing up you agree to our <span class="span3">terms & Services.</span></h5>
+                <h5 class="end">By Signing up you agree to our <span class="span3" data-toggle="modal" data-target="#exampleModalLong">terms & Services.</span></h5>
+            </div>
+            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Services and rules</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est velit officia facilis aliquid! Quisquam assumenda deleniti tenetur, voluptates fugiat quidem molestias iure, adipisci quas esse ad deserunt praesentium obcaecati modi rerum accusantium molestiae doloribus in aperiam repudiandae dolorem optio officiis qui vitae. Veritatis, soluta officia. Animi voluptatum ex voluptates et!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est velit officia facilis aliquid! Quisquam assumenda deleniti tenetur, voluptates fugiat quidem molestias iure, adipisci quas esse ad deserunt praesentium obcaecati modi rerum accusantium molestiae doloribus in aperiam repudiandae dolorem optio officiis qui vitae. Veritatis, soluta officia. Animi voluptatum ex voluptates et!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est velit officia facilis aliquid! Quisquam assumenda deleniti tenetur, voluptates fugiat quidem molestias iure, adipisci quas esse ad deserunt praesentium obcaecati modi rerum accusantium molestiae doloribus in aperiam repudiandae dolorem optio officiis qui vitae. Veritatis, soluta officia. Animi voluptatum ex voluptates et!</p>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Accept</button>
+                    <button type="button" class="btn btn-danger">Close</button>
+                    </div>
+                </div>
+                </div>
             </div>
         </div>
     </div>
@@ -200,8 +224,8 @@
                 <h5 class="h1"> Start</h5>
                 <img src="img/ex.png" class="ex">
                 <p class="lastrow">Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam.
-                USA &  CAN: 1-888-123-4567
-                Address: 34 Brokel Rd. NY</p>
+                USA &  CAN: <a href="tel:+9879976999"><span class="link">1-888-123-4567</span></a>
+                Address: <a href="https://yandex.ru/maps/-/CCQ~yZcCCA" target="_blank"><span class="link">34 Brokel Rd. NY</span></a></p>
             </div>
             <div class="col-2">
                 <h5 class="h1">Support</h5>
@@ -234,15 +258,6 @@
             <div class="col-2"></div>
     </div>  
 </section>   
-<!-- <div id="footer">
-    <div class="container">
-        <div class="row">
-            <div class="offset-md-5 col-md-7">
-                <a href="https://github.com/Vera-Shirokova"><p>© Shirokova Vera 2020</p></a>
-            </div>
-        </div>
-    </div>
-</div> -->
 
 <script>
     const video = document.querySelector('#test');
@@ -254,6 +269,9 @@
     });
 </script>
 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 </body>
 </html>
